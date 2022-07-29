@@ -43,7 +43,7 @@ class Test03ReturningCustomValues {
 	}
 
 	@Test
-	void should_countAvailablePlaces_When_MultipleRoomsAvailable(){
+	void should_CountAvailablePlaces_When_MultipleRoomsAvailable(){
 //        given
 		List<Room> rooms = Arrays.asList(new Room("Room 1", 2), new Room("Room 2", 5));
 		when(this.roomServiceMock.getAvailableRooms()).thenReturn(rooms);

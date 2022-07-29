@@ -27,7 +27,7 @@ class Test04MultipleThenReturnCalls {
 	}
 
 	@Test
-	void should_countAvailablePlaces_When_CalledMultipleTimes(){
+	void should_CountAvailablePlaces_When_CalledMultipleTimes(){
 //        given
 		when(this.roomServiceMock.getAvailableRooms())
 				.thenReturn(Collections.singletonList(new Room("Room 1", 4)))

@@ -30,7 +30,7 @@ class Test02DefaultReturnValues {
 	}
 
 	@Test
-	void should_countAvailablePlaces(){
+	void should_CountAvailablePlaces(){
 //        given
 		int expected = 0;
 
