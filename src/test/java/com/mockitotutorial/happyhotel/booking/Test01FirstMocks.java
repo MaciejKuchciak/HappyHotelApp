@@ -25,7 +25,7 @@ class Test01FirstMocks {
 	}
 
 	@Test
-	void should_calculateCorrectPrice_When_CorrectInput(){
+	void should_CalculateCorrectPrice_When_CorrectInput(){
 //        given
 		BookingRequest bookingRequest = new BookingRequest("1", LocalDate.of(2020, 1, 01),LocalDate.of(2020, 01, 05), 2, false);
 
